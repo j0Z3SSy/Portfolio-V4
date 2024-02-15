@@ -45,13 +45,13 @@ Kaikkee mitä uraa nyt on kuulunu.
 
     <!-- Navbar Import -->
     <script>
-      fetch('/html-pages/common parts/navbar.html')
+      fetch('../html-pages/common parts/navbar.html')
           .then(response => response.text())
           .then(html => document.getElementById('navbar-container').innerHTML = html);
     </script>
     <!-- Footer Import -->
     <script>
-      fetch('/html-pages/common parts/footer.html')
+      fetch('../html-pages/common parts/footer.html')
           .then(response => response.text())
           .then(html => document.getElementById('footer-container').innerHTML = html);
     </script>
