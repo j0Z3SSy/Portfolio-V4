@@ -1,0 +1,589 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    background: rgb(198, 255, 230);
+    background: linear-gradient(360deg, rgba(70, 112, 94, 0.678) 0%, rgba(31, 230, 144, 0.589) 100%);
+    background-repeat: repeat-x;
+    background-position: center;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    overflow-y: auto;
+    font-family: "Afacad", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+
+    min-height: 100vh;
+    margin-bottom: 0em;
+    
+}
+body {
+    display: flex;
+    flex-direction: column;
+}
+.header-heading {
+    font-weight: 900;
+    text-transform: uppercase;
+    text-align: center;
+    font-style: oblique;
+    height: fit-content;
+
+    background: linear-gradient(to right, rgba(0, 129, 75, 0.685) 0%, rgba(0, 250, 142, 0.808) 30%, rgb(0, 129, 75, 0.685) 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+
+    letter-spacing: 0em; /* Adjusted to relative unit */
+    display: flex;
+    flex-flow: column;
+    line-height: 0.8;
+
+    overflow-wrap: break-word;
+
+    text-shadow: rgba(40, 255, 183, 0.432) 0vw 14vw 2em;
+
+}
+
+header {
+    background-color: rgb(4, 7, 6);
+    
+}
+.autograph {
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    text-align:right;
+    letter-spacing: 0.01em; /* Adjusted to relative unit */
+
+    background: linear-gradient(to right, rgba(0, 129, 75, 0.685) 0%, rgba(0, 250, 142, 0.808) 30%, rgb(0, 129, 75, 0.685) 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+
+
+
+.light-heading-big {
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+    color: rgb(19, 39, 31);
+    text-transform: uppercase;
+    letter-spacing: 0.1em; /* Adjusted to relative unit */
+}
+
+.light-heading {
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+    color: rgb(19, 39, 31);
+    text-transform: lowercase;
+    letter-spacing: 0;
+}
+
+.light-heading-small {
+    font-weight: 500;
+    margin: 0;
+    padding: 0;
+    color: rgb(19, 39, 31);
+    text-transform: uppercase;
+    letter-spacing: 0.05em; /* Adjusted to relative unit */
+}
+
+.light-text {
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    color: rgb(9, 17, 14);
+    letter-spacing: 0.01em; /* Adjusted to relative unit */
+}
+
+
+
+
+.dark-heading-big {
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+    color: rgb(201, 255, 233);
+    text-transform: uppercase;
+    letter-spacing: 0.1em; /* Adjusted to relative unit */
+}
+
+.dark-heading {
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+    color: rgb(201, 255, 233);
+    text-transform: lowercase;
+    letter-spacing: 0;
+}
+
+.dark-heading-small {
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+    color: rgb(201, 255, 233);
+    text-transform: uppercase;
+    letter-spacing: 0.05em; /* Adjusted to relative unit */
+}
+
+.dark-text {
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    color: rgb(213, 255, 238);
+    letter-spacing: 0.01em; /* Adjusted to relative unit */
+}
+
+
+
+.trans-heading-big {
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+    color: rgb(19, 39, 31);
+    text-transform: uppercase;
+    letter-spacing: 0.1em; /* Adjusted to relative unit */
+}
+
+.trans-heading {
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+    color: rgb(19, 39, 31);
+    text-transform: lowercase;
+    letter-spacing: 0;
+}
+
+.trans-heading-small {
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+    color: rgb(19, 39, 31);
+    text-transform: uppercase;
+    letter-spacing: 0.05em; /* Adjusted to relative unit */
+}
+
+.trans-text {
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    color: rgb(9, 15, 12);
+    letter-spacing: 0.01em; /* Adjusted to relative unit */
+}
+
+
+
+
+
+.nav-heading {
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 0.1em; /* Adjusted to relative unit */
+
+
+
+}
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 4.2vw; /* Adjusted to relative unit */
+    background-color: rgb(4, 7, 6);
+    z-index: 2;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    margin-top: 0; /* Adjust as needed based on your navbar height */
+    /* Add a border to the bottom of the navbar */
+    border-top: 0.5vw solid rgb(4, 7, 6);
+    border-bottom: 0.5vw solid rgb(4, 7, 6);
+    /* Add rounded corners to the navbar */
+    border-radius: 0em;
+  }
+  .nav-link {
+    text-decoration: none;
+    background: linear-gradient(to right, rgba(0, 129, 75, 0.925) 0%, rgba(0, 250, 142, 0.658) 30%, rgb(0, 129, 75, 0.925) 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+
+  .nav-link:hover {
+    color: rgb(5, 218, 147);
+    /* color | offset-x | offset-y | blur-radius */
+    text-shadow: rgb(40, 255, 183) 0.5vw 0 0.7em;
+  }
+
+
+
+
+
+
+.follow-me-heading {
+    font-weight: 700;
+    /* top | right | bottom | left */
+    padding: 2vw 2vw 0.2vw 2vw;
+    /* top | right | bottom | left */
+    margin: 0vw;
+    color: rgb(201, 255, 233);
+    text-transform:lowercase;
+    letter-spacing: 0;
+    text-align: center;
+}
+.footer-heading {
+    font-weight: 500;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(4, 7, 6);
+    color: rgb(201, 255, 233);
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 0.05em; /* Adjusted to relative unit */
+}
+
+.footer-autograph {
+    font-family: "Monsieur La Doulaise", cursive;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    letter-spacing: 0.08em; /* Adjusted to relative unit */
+
+    background: linear-gradient(to right, rgba(0, 129, 75, 0.685) 0%, rgba(0, 250, 142, 0.808) 30%, rgb(0, 129, 75, 0.685) 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    text-shadow: rgb(40, 255, 183) 0.5vw 0 0.7em;
+}
+footer {
+    background-color: rgb(19, 39, 31);
+
+    margin-top: auto; /* Push the footer to the bottom */
+
+
+
+}
+.footer-section {
+    background-color: rgb(4, 7, 6);
+        /* top | right | bottom | left */
+        padding: 3vw 2vw 2vw 2vw;
+}
+
+.gap {
+    height: 8vw; /* Adjusted to relative unit */
+}
+
+
+
+/* width */
+::-webkit-scrollbar {
+    width: 1vw;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background-color: rgb(4, 7, 6);
+
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(201, 255, 233);
+    
+  }
+
+
+
+
+.flexbox-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    /* top | right | bottom | left */
+    margin: 0vw 2.5vw 0vw 2.5vw;
+    flex-grow: 1;/* Allow main content to grow and take remaining space */
+    flex-shrink: 2;/* Allow main content to grow and take remaining space */
+}
+
+.first-type-light {
+    display: inherit;
+    flex-basis: 50%;
+    justify-content: center;
+    /* top | right | bottom | left */
+    padding: 2vw 2.5vw 2vw 2.5vw;
+    background-color: rgb(201, 255, 233);
+    /* top | right | bottom | left */
+    margin: 3vw 1vw 3vw 1vw;   
+}
+.second-type-light {
+    display: inherit;
+    flex-basis: 100%;
+    justify-content: left;
+    text-align: left;
+    /* top | right | bottom | left */
+    padding: 0.5vw 3vw 0.5vw 3vw;
+    background-color: rgb(201, 255, 233);
+    /* top | right | bottom | left */
+    margin: 3vw 0vw 3vw 0vw; 
+}
+.third-type-light {
+    display: inherit;
+    flex-basis: 100%;
+    justify-content: center;
+    text-align: center;
+    /* top | right | bottom | left */
+    padding: 2vw 0.5vw 2vw 0.5vw;
+    background-color: rgb(201, 255, 233);
+    /* top | right | bottom | left */
+    margin: 3vw 0vw 3vw 0vw; 
+}
+
+.first-type-dark {
+    display: inherit;
+    flex-basis: 50%;
+    justify-content: center;
+    /* top | right | bottom | left */
+    padding: 2vw 2.5vw 2vw 2.5vw;
+    background-color: rgb(19, 39, 31);
+    /* top | right | bottom | left */
+    margin: 3vw 1vw 3vw 1vw;  
+}
+
+.second-type-dark {
+    display: inherit;
+    flex-basis: 100%;
+    justify-content: center;
+    /* top | right | bottom | left */
+    padding: 0.5vw 3vw 0.5vw 3vw;
+    background-color: rgb(19, 39, 31);
+    /* top | right | bottom | left */
+    margin: 3vw 0vw 3vw 0vw; 
+}
+
+.third-type-dark {
+    display: inherit;
+    flex-basis: 100%;
+    justify-content: center;
+    text-align: center;
+    /* top | right | bottom | left */
+    padding: 2vw 0.5vw 2vw 0.5vw;
+    background-color: rgb(19, 39, 31);
+    /* top | right | bottom | left */
+    margin: 3vw 0vw 3vw 0vw; 
+}
+
+.first-type-trans {
+    display: inherit;
+    flex-basis: 50%;
+    justify-content: center;
+    /* top | right | bottom | left */
+    padding: 2vw 2.5vw 2vw 2.5vw;
+    /* top | right | bottom | left */
+    margin: 3vw 1vw 3vw 1vw;   
+}
+
+.second-type-trans {
+    display: inherit;
+    flex-basis: 100%;
+    justify-content: center;
+    /* top | right | bottom | left */
+    padding: 0.5vw 3vw 0.5vw 3vw;
+    /* top | right | bottom | left */
+    margin: 3vw 0vw 3vw 0vw; 
+}
+
+.third-type-trans {
+    display: inherit;
+    flex-basis: 100%;
+    justify-content: center;
+    text-align: center;
+    /* top | right | bottom | left */
+    padding: 2vw 0.5vw 2vw 0.5vw;
+    /* top | right | bottom | left */
+    margin: 3vw 0vw 3vw 0vw; 
+}
+
+@media screen and (max-width: 600px) {
+    .flexbox-container, .first-type-light, .second-type-light, .third-type-light, .first-type-dark, .second-type-dark, .third-type-dark, .first-type-trans, .second-type-trans, .third-type-trans {
+        flex-direction: column;
+    }
+
+    nav{
+        flex-direction: row;
+        /* top | right | bottom | left */
+        padding: 3vw 2vw 3vw 2vw;
+        /* top | right | bottom | left */
+        margin: 0vw 0vw 0vw 0vw;
+    }
+    .header-heading {
+        font-size: 22vw; /* Adjusted to relative unit */
+        /* top | right | bottom | left */
+        padding: 15vw 0.2vw 5vw 0.2vw;
+        /* top | right | bottom | left */
+        margin: 0vw 0vw 0vw 0vw;
+    }
+    .autograph {
+        font-size: 3.5vw; /* Adjusted to relative unit */
+        /* top | right | bottom | left */
+        margin: 1vw 10vw 1vw 1vw;
+    }
+    .light-heading-big {
+        font-size: 8vw; /* Adjusted to relative unit */
+    }
+
+    .light-heading {
+        font-size: 4vw; /* Adjusted to relative unit */
+    }
+
+    .light-heading-small {
+        font-size: 2vw; /* Adjusted to relative unit */
+    }
+
+    .light-text {
+        font-size: 2.5vw; /* Adjusted to relative unit */
+    }
+
+    .dark-heading-big {
+        font-size: 8vw; /* Adjusted to relative unit */
+    }
+
+    .dark-heading {
+        font-size: 4vw; /* Adjusted to relative unit */
+    }
+
+    .dark-heading-small {
+        font-size: 2vw; /* Adjusted to relative unit */
+    }
+
+    .dark-text {
+        font-size: 2.5vw; /* Adjusted to relative unit */
+    }
+
+    .trans-heading-big {
+        font-size: 8vw; /* Adjusted to relative unit */
+    }
+
+    .trans-heading {
+        font-size: 4vw; /* Adjusted to relative unit */
+    }
+
+    .trans-heading-small {
+        font-size: 2vw; /* Adjusted to relative unit */
+    }
+
+    .trans-text {
+        font-size: 2.5vw; /* Adjusted to relative unit */
+    }
+
+    .nav-heading {
+        font-size: 3.5vw; /* Adjusted to relative unit */
+    }
+
+    .footer-heading {
+        font-size: 2vw; /* Adjusted to relative unit */
+    }
+    .footer-autograph {
+        font-size: 6.5vw; /* Adjusted to relative unit */
+    }
+    .follow-me-heading {
+        font-size: 5vw; /* Adjusted to relative unit */
+    }
+}
+
+@media screen and (min-width: 600px) {
+    .flexbox-container, .first-type-light, .second-type-light, .third-type-light, .first-type-dark, .second-type-dark, .third-type-dark, .first-type-trans, .second-type-trans, .third-type-trans {
+        flex-direction: row;
+        
+    }
+
+    nav{
+        flex-direction: row;
+        /* top | right | bottom | left */
+        padding: 1vw 2vw 1vw 2vw;
+        /* top | right | bottom | left */
+        margin: 0vw 0vw 0vw 0vw;
+    }
+
+    .header-heading {
+        font-size: 22vw; /* Adjusted to relative unit */
+        /* top | right | bottom | left */
+        padding: 10.5vw 0.2vw 5vw 0.2vw;
+        /* top | right | bottom | left */
+        margin: 0vw 0vw 0vw 0vw;
+    }
+    .autograph {
+        font-size: 3.5vw; /* Adjusted to relative unit */
+        margin: 1vw 10vw 1vw 1vw;
+    }
+    .light-heading-big {
+        font-size: 8vw; /* Adjusted to relative unit */
+    }
+
+    .light-heading {
+        font-size: 4vw; /* Adjusted to relative unit */
+    }
+
+    .light-heading-small {
+        font-size: 2vw; /* Adjusted to relative unit */
+    }
+
+    .light-text {
+        font-size: 2.5vw; /* Adjusted to relative unit */
+    }
+
+    .dark-heading-big {
+        font-size: 8vw; /* Adjusted to relative unit */
+    }
+
+    .dark-heading {
+        font-size: 4vw; /* Adjusted to relative unit */
+    }
+
+    .dark-heading-small {
+        font-size: 2vw; /* Adjusted to relative unit */
+    }
+
+    .dark-text {
+        font-size: 2.5vw; /* Adjusted to relative unit */
+    }
+
+    .trans-heading-big {
+        font-size: 8vw; /* Adjusted to relative unit */
+    }
+
+    .trans-heading {
+        font-size: 4vw; /* Adjusted to relative unit */
+    }
+
+    .trans-heading-small {
+        font-size: 2vw; /* Adjusted to relative unit */
+    }
+
+    .trans-text {
+        font-size: 2.5vw; /* Adjusted to relative unit */
+    }
+
+    .nav-heading {
+        font-size: 2.8vw; /* Adjusted to relative unit */
+    }
+
+    .footer-heading {
+        font-size: 2vw; /* Adjusted to relative unit */
+    }
+    .footer-autograph {
+        font-size: 6.5vw; /* Adjusted to relative unit */
+    }
+    .follow-me-heading {
+        font-size: 5vw; /* Adjusted to relative unit */
+    }
+}
+

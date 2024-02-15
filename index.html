@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Head Import -->
+    <script>
+      fetch('../html-pages/common parts/head.html')
+          .then(response => response.text())
+          .then(html => document.head.innerHTML += html);
+    </script>
+    <title>Joni Mitronen // Welcome</title>
+  </head>
+  <body>
+    <!-- Navbar Container -->
+    <div id="navbar-container"></div> 
+
+
+
+    <header>
+      <h1 class="header-heading">Welcome.</h1>
+      <p class="autograph"> “What you can do today,<br>you don't have to do tomorrow.”<br> ― Joni Mitronen</p>
+    </header>
+
+<!-- Main Content Start -->
+
+<div class="flexbox-container">
+
+  <div class="third-type-trans">
+    <section>
+      <section class="gap"></section>
+      <h2 class="trans-heading-big">Hello!</h2>
+      <h6 class="trans-heading-small">My name is Joni Mitronen and this is my website.</h6>
+      <section class="gap"></section>
+      <section class="gap"></section>
+    </section>
+
+  </div>
+
+</div>
+
+
+
+
+    
+
+    
+<!-- Main Content End -->
+
+
+
+
+
+    <!-- Footer Container -->
+    <div id="footer-container"></div>
+    
+
+
+    <!-- Navbar Import -->
+    <script>
+      fetch('../html-pages/common parts/navbar.html')
+          .then(response => response.text())
+          .then(html => document.getElementById('navbar-container').innerHTML = html);
+    </script>
+    <!-- Footer Import -->
+    <script>
+      fetch('../html-pages/common parts/footer.html')
+          .then(response => response.text())
+          .then(html => document.getElementById('footer-container').innerHTML = html);
+    </script>
+  </body>
+</html>

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Head Import -->
+    <script>
+      fetch('../html-pages/common parts/head.html')
+          .then(response => response.text())
+          .then(html => document.head.innerHTML += html);
+    </script>
+    <title>Joni Mitronen // Passions</title>
+  </head>
+  <body>
+    <!-- Navbar Container -->
+    <div id="navbar-container"></div>
+
+    <header>
+      <h1 class="header-heading">Passions.</h1>
+    </header>
+
+
+    <section class="gap"></section>
+
+<!-- Main Content Start -->
+<main>
+  <h2 class="light-heading-big">Passions.</h2>
+  <h3 class="light-heading">Passions</h3>
+  <h6 class="light-heading-small">Brazilian Jiu-Jitsu</h5>
+  <h6 class="light-heading-small">Coding</h6>
+  <h6 class="light-heading-small">Music Producing</h6>
+  <h6 class="light-heading-small">Movies</h5>
+  <h6 class="light-heading-small">Fishing</h6>
+  <h6 class="light-heading-small">BMX</h5>
+  <p class="light-text"> 
+      I am a 26 year old student from HAMK University of Applied Sciences. I
+      am studying for a Bachelor of Business Administration for the first
+      year, my field of study is computer science and telecommunications.
+      I used to work as a electrician in permanent employment for six years.
+      During my employment, I worked for the most part, as a site leader or
+      as the oldest member of the working group.
+      I am known for being passionate for my approach to my work and I
+      always give my best for every project. I am also known for thinking
+      through all the variables as best I can which should be taken
+      into account at different stages of the project. My goal is always to
+      complete tasks efficiently and, in case of mistakes, learn from them.
+      I am a well-liked colleague at work and in my free time, and in my
+      opinion, a good working atmosphere and easily approachable colleagues
+      are part of success.
+      My goal is to become a full-stack software developer and maybe
+      someday work for the Finnish Defence Forces in this field of
+      expertise.
+  </p>
+</main>
+
+    <!-- Footer Container -->
+    <div id="footer-container"></div>
+
+
+
+
+    <!-- Navbar Import -->
+    <script>
+      fetch('../html-pages/common parts/navbar.html')
+          .then(response => response.text())
+          .then(html => document.getElementById('navbar-container').innerHTML = html);
+    </script>
+    <!-- Footer Import -->
+    <script>
+      fetch('../html-pages/common parts/footer.html')
+          .then(response => response.text())
+          .then(html => document.getElementById('footer-container').innerHTML = html);
+    </script>
+  </body>
+</html>

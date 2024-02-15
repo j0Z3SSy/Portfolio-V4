@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Head Import -->
+    <script>
+      fetch('../html-pages/common parts/head.html')
+          .then(response => response.text())
+          .then(html => document.head.innerHTML += html);
+    </script>
+    <title>Joni Mitronen // Contact</title>
+  </head>
+  <body>
+    <!-- Navbar Container -->
+    <div id="navbar-container"></div>
+    
+    <header>
+      <h1 class="header-heading">Contact.</h1>
+    </header>
+
+
+    <section class="gap"></section>
+
+<!-- Main Content Start -->
+<main>
+  <h2 class="light-heading-big">Contact.</h2>
+  <h3 class="light-heading">Contact</h3>
+  <h6 class="light-heading-small">Holla At Me!</h6>
+  <p class="light-text"> 
+tähä jotai. read me lukee mitä.
+  </p>
+</main>
+
+    <!-- Footer Container -->
+    <div id="footer-container"></div>
+
+
+
+
+    <!-- Navbar Import -->
+    <script>
+      fetch('../html-pages/common parts/navbar.html')
+          .then(response => response.text())
+          .then(html => document.getElementById('navbar-container').innerHTML = html);
+    </script>
+    <!-- Footer Import -->
+    <script>
+      fetch('../html-pages/common parts/footer.html')
+          .then(response => response.text())
+          .then(html => document.getElementById('footer-container').innerHTML = html);
+    </script>
+  </body>
+</html>

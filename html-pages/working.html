@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Head Import -->
+    <script>
+      fetch('../html-pages/common parts/head.html')
+          .then(response => response.text())
+          .then(html => document.head.innerHTML += html);
+    </script>
+    <title>Joni Mitronen // Working</title>
+  </head>
+  <body>
+    <!-- Navbar Container -->
+    <div id="navbar-container"></div>
+    <header>
+      <h1 class="header-heading">Working.</h1>
+    </header>
+
+    <section class="gap"></section>
+
+<!-- Main Content Start -->
+<main>
+  <h2 class="light-heading-big">Working.</h2>
+  <h3 class="light-heading">Working</h3>
+  <h6 class="light-heading-small">Experience</h6>
+  <h6 class="light-heading-small">Skills</h6>
+  <h6 class="light-heading-small">Certifications</h6>
+  <h6 class="light-heading-small">Education</h6>
+  <p class="light-text"> 
+Kaikkee mitä uraa nyt on kuulunu.
+  </p>
+</main>
+
+    <!-- Footer Container -->
+    <div id="footer-container"></div>
+
+
+
+
+    <!-- Navbar Import -->
+    <script>
+      fetch('../html-pages/common parts/navbar.html')
+          .then(response => response.text())
+          .then(html => document.getElementById('navbar-container').innerHTML = html);
+    </script>
+    <!-- Footer Import -->
+    <script>
+      fetch('../html-pages/common parts/footer.html')
+          .then(response => response.text())
+          .then(html => document.getElementById('footer-container').innerHTML = html);
+    </script>
+  </body>
+</html>

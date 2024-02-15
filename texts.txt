@@ -1,0 +1,123 @@
+Skills.
+    During my studies, I have learned the basics of programming with
+    Java.
+    In addition, I have learned the key concepts and functions related to
+    operating systems, such as Windows and Linux.
+    I have learned the basics of analysis with
+    Python programming language, and I have a good
+    understanding of the basics of relational databases, especially
+    MySQL.
+    In terms of data networks, I have become familiar with
+    Docker,Traefik and the VSCode development environment.
+    I have learnedHTML and CSS basics.
+
+Personal Projects.
+    Self made website for portfolio
+    More in the works.😊
+
+
+Hobbies.
+    In my free time, I enjoy a variety of hobbies. My hobbies are BMX
+    cycling, jogging with my dogs and creating music in my home studio. I
+    am learning to play the guitar, writing lyrics and producing.
+    Alongside my studies, I have also been inspired to code and design
+    various IT projects for myself to implement. In the summer, my hobbies
+    also include fishing.
+
+
+Experience.
+3/2021 - 7/2023
+Electrician
+Franklin Oy
+
+3/2021 - 7/2023
+Electrician
+Tehomen Oy
+
+        I have six years of work experience as an electrician and as a
+        supervisor in that field of work.
+        Though this experience description is not directly related to the new
+        profession I am studying, it has taught me valuable things about
+        working life. I have learned how to resist pressure, how to make
+        difficult decisions, communicating despite language barriers and
+        teamwork in demanding conditions.
+        The world of information technology has only opened up to me when I
+        started my studies in HAMK University of Applied Sciences,
+        but hunger has increased while eating, so to speak. I have gotten good
+        grades, I am genuinely interested about the subjects we are taught and
+        I am active teamplayer in group work, no matter what my role is.
+
+
+Education.
+    8/2023 -
+    Bachelor of Business Administration
+    Data Processing
+    HAMK University of Applied Sciences
+
+    9/2019 - 12/2020
+    Electrician
+    Further Qualification for Electricians
+    Taitotalo Vocational School
+
+    3/2017 - 6/2018
+    Sergeant
+    Leadership-training
+    Finnish Defence Forces, Coastal Brigade
+
+    8/2013 - 6/2016
+    Electrician
+    Vocational upper secondary dual qualification in
+    Electrical Engineering and
+    Automation Technology
+    Stadin Vocational School
+
+
+Certifications.
+    Occupational Safety Card
+    Electrical Work Safety Card
+    First Aid Course EA 1
+    Class B Driver's License
+    And working on for more.
+
+
+Introduction.
+      I am a 26 year old student from HAMK University of Applied Sciences. I
+      am studying for a Bachelor of Business Administration for the first
+      year, my field of study is computer science and telecommunications.
+      I used to work as a electrician in permanent employment for six years.
+      During my employment, I worked for the most part, as a site leader or
+      as the oldest member of the working group.
+      I am known for being passionate for my approach to my work and I
+      always give my best for every project. I am also known for thinking
+      through all the variables as best I can which should be taken
+      into account at different stages of the project. My goal is always to
+      complete tasks efficiently and, in case of mistakes, learn from them.
+      I am a well-liked colleague at work and in my free time, and in my
+      opinion, a good working atmosphere and easily approachable colleagues
+      are part of success.
+      My goal is to become a full-stack software developer and maybe
+      someday work for the Finnish Defence Forces in this field of
+      expertise.
+
+
+
+WELCOME.
+Welcome,my name is Joni Mitronen and this is my website.
+
+
+LIFE.
+  Life.
+  roots.
+  Education.
+  Career.
+  family.
+  future.
+
+Who are you? who am i
+    Tell us little bit about yourself. Little bit about myself?
+        Roots...Where are you from? mistä kotoisin
+        Education...How about your educational background? opiskelut
+        Career...Tell me about your work experience. ura
+Why are you leaving your current profession? Why do i want to chance my profession?
+What motivates me? perhe
+What about future? kerro tulevaisuuden suunnitelmista
