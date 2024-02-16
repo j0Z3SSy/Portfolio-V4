@@ -412,6 +412,7 @@ footer {
     margin: 3vw 0vw 3vw 0vw; 
 }
 
+/* KÄNNYKKÄ */
 @media screen and (max-width: 600px) {
     .flexbox-container, .first-type-light, .second-type-light, .third-type-light, .first-type-dark, .second-type-dark, .third-type-dark, .first-type-trans, .second-type-trans, .third-type-trans {
         flex-direction: column;
@@ -486,6 +487,7 @@ footer {
 
     .nav-heading {
         font-size: 3.5vw; /* Adjusted to relative unit */
+
     }
 
     .footer-heading {
@@ -499,6 +501,7 @@ footer {
     }
 }
 
+/* TIETOKONE */
 @media screen and (min-width: 600px) {
     .flexbox-container, .first-type-light, .second-type-light, .third-type-light, .first-type-dark, .second-type-dark, .third-type-dark, .first-type-trans, .second-type-trans, .third-type-trans {
         flex-direction: row;
