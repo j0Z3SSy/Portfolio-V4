@@ -49,6 +49,10 @@ body {
 
 header {
     background-color: rgb(4, 7, 6);
+
+
+
+
     
 }
 .autograph {
@@ -230,7 +234,7 @@ nav {
 .follow-me-heading {
     font-weight: 700;
     /* top | right | bottom | left */
-    padding: 2vw 2vw 0.2vw 2vw;
+    padding: 2vw 2vw 1.8vw 2vw;
     /* top | right | bottom | left */
     margin: 0vw;
     color: rgb(201, 255, 233);
@@ -268,19 +272,37 @@ footer {
     background-color: rgb(19, 39, 31);
 
     margin-top: auto; /* Push the footer to the bottom */
-
-
-
 }
 .footer-section {
     background-color: rgb(4, 7, 6);
         /* top | right | bottom | left */
         padding: 3vw 2vw 2vw 2vw;
 }
+.follow-logo{
+    width: 5.8vw; /* Set the desired width for the smaller logos */
+    height: auto; /* Maintain the aspect ratio */
+
+    
+}
+.footer-flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 2.5vw; /* Set the desired gap between flex items */
+}
+
+
+
 
 .gap {
     height: 8vw; /* Adjusted to relative unit */
 }
+a{
+    text-decoration: none;
+}
+
 
 
 
@@ -312,6 +334,7 @@ footer {
     margin: 0vw 2.5vw 0vw 2.5vw;
     flex-grow: 1;/* Allow main content to grow and take remaining space */
     flex-shrink: 2;/* Allow main content to grow and take remaining space */
+    
 }
 
 .first-type-light {
@@ -322,7 +345,8 @@ footer {
     padding: 2vw 2.5vw 2vw 2.5vw;
     background-color: rgb(201, 255, 233);
     /* top | right | bottom | left */
-    margin: 3vw 1vw 3vw 1vw;   
+    margin: 3vw 1vw 3vw 1vw;
+
 }
 .second-type-light {
     display: inherit;
@@ -411,6 +435,12 @@ footer {
     /* top | right | bottom | left */
     margin: 3vw 0vw 3vw 0vw; 
 }
+
+
+
+
+
+
 
 /* KÄNNYKKÄ */
 @media screen and (max-width: 600px) {
