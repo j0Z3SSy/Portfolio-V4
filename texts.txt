@@ -24,15 +24,37 @@ Hobbies.
     various IT projects for myself to implement. In the summer, my hobbies
     also include fishing.
 
+  <h6 class="light-heading-small">Brazilian Jiu-Jitsu</h5>
+  <h6 class="light-heading-small">Coding</h6>
+  <h6 class="light-heading-small">Music Producing</h6>
+  <h6 class="light-heading-small">Movies</h5>
+  <h6 class="light-heading-small">Fishing</h6>
+  <h6 class="light-heading-small">BMX</h5>
+
+
+
 
 Experience.
 3/2021 - 7/2023
 Electrician
 Franklin Oy
 
-3/2021 - 7/2023
+8/2016–3/2021
 Electrician
 Tehomen Oy
+
+11 Essential Soft Skills In 2024
+1. Communication
+2. Leadership
+3. Teamwork
+4. Creativity
+5. Time management
+6. Adaptability
+7. Problem-solving
+8. Work ethic
+9. Critical thinking
+10. Conflict management
+11. Emotional intelligence
 
         I have six years of work experience as an electrician and as a
         supervisor in that field of work.

@@ -32,6 +32,7 @@
 + Skills
 + + Hard Skills
 + + Soft SKills
++ + Language Skills
 + Certifications
 + Education
 
@@ -63,4 +64,5 @@
 ## Theme ##
 - signatureista jotkut pyörivät välit ja värjää punasen vihreeks. mu-va ok.
 - kaikki kuvat,videot,giffit mustavalkosia.
+- ehkö emojeita teksteihin tuomaan sitä fiilistä mikä siinä on?
 
